@@ -1,0 +1,76 @@
+NAME
+    Business::Billing::TMobile::UK - The fantastic new
+    Business::Billing::TMobile::UK!
+
+SYNOPSIS
+     use Business::Billing::TMobile::UK
+
+DESCRIPTION
+    An interface to TMobile UK's website for getting allowance and billing
+    information.
+
+CLASS METHODS
+  new
+     new(username => $username, password => $password)
+
+OBJECT METHODS
+  get_allowances
+     get_allowances()
+
+    Logs into the My Account section of the T-Mobile website and parses out
+    the Allowance information if available.
+
+INSTALLATION
+    This module uses Module::Build for its installation. To install this
+    module type the following:
+
+      perl Build.PL
+      ./Build
+      ./Build test
+      ./Build install
+
+    If you do not have Module::Build type:
+
+      perl Makefile.PL
+
+    to fetch it. Or use CPAN or CPANPLUS and fetch it "manually".
+
+DEPENDENCIES
+    This module requires these other modules and libraries:
+
+     Test::More
+
+    Test::More is only required for testing purposes
+
+    This module has these optional dependencies:
+
+     Test::Distribution
+
+    This is just requried for testing purposes.
+
+TODO
+    If find this module useful please do let me know and I'll spend more
+    effort on expanding/improving it. All enhancement requests are welcome.
+
+    *   _logout method (just to be nice)
+
+BUGS
+    To report a bug or request an enhancement use CPAN's excellent Request
+    Tracker, either via the web:
+
+    <http://rt.cpan.org/NoAuth/ReportBug.html?Queue=Business-Billing-TMobile
+    -UK>
+
+    or via email:
+
+    "bug-business-billing-tmobile-uk@rt.cpan.org"
+
+AUTHOR
+    Sagar R. Shah, "<sagarshah@softhome.net>"
+
+COPYRIGHT
+    Copyright 2005 Sagar R. Shah, All Rights Reserved.
+
+    This program is free software; you can redistribute it and/or modify it
+    under the same terms as Perl itself.
+

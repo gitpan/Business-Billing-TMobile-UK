@@ -1,0 +1,33 @@
+This file contains message digests of all files listed in MANIFEST,
+signed via the Module::Signature module, version 0.38.
+
+To verify the content in this distribution, first make sure you have
+Module::Signature installed, then type:
+
+    % cpansign -v
+
+It would check each file's integrity, as well as the signature's
+validity.  If "==> Signature verified OK! <==" is not displayed,
+the distribution may already have been compromised, and you should
+not run its Makefile.PL or Build.PL.
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+SHA1 ee2f85861b00f53a80f28f1c7ae3158bdc9af0af Build.PL
+SHA1 b0997c8889a75ce07a444ec51761661cce4e4232 Changes
+SHA1 86179fba5ada8c3a01fc37d28bb5ddc8c8886213 MANIFEST
+SHA1 755210e059a0acb7b984326cde4f241af38add15 META.yml
+SHA1 a359d4072690a21ce63e4b393bdbc19d72b6be5a Makefile.PL
+SHA1 618a54de5161adb3d7777d9bb60e6fc0c26774b9 README
+SHA1 82f8b78711ade2f93da1035cc08637e46b735813 lib/Business/Billing/TMobile/UK.pm
+SHA1 01c3db36930081fa66154985efc56d8835c7c14c t/01_distribution.t
+SHA1 a28727c26f193c906fa4a94fa72f9098548ff77c t/02_parse.t
+SHA1 b7d5e54a7df88765c77c594a91622f0ce2c4360e t/test.html
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.2.6 (GNU/Linux)
+
+iD8DBQFCRtmBbD1fM9M5ytIRAnIjAKCA9DtTqjprnWs1nT+9TPq7V0eQoQCgws/e
+Hwpv/e2BiBJEV0jOJurwA7s=
+=EhDm
+-----END PGP SIGNATURE-----
