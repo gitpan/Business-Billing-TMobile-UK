@@ -1,17 +1,18 @@
 --- #YAML:1.0
 name: Business-Billing-TMobile-UK
-version: 0.10
+version: 0.11
 author:
   - Sagar R. Shah <sagarshah@softhome.net>
 abstract: The fantastic new Business::Billing::TMobile::UK!
 license: perl
 requires:
   HTML::TreeBuilder: 0
+  Term::ReadPassword: 0
   WWW::Mechanize: 0
 build_requires:
   Test::More: 0
 provides:
   Business::Billing::TMobile::UK:
     file: lib/Business/Billing/TMobile/UK.pm
-    version: 0.10
+    version: 0.11
 generated_by: Module::Build version 0.2609

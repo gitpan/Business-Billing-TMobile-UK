@@ -27,7 +27,7 @@ use English;
 use HTML::TreeBuilder;
 use WWW::Mechanize;
 
-$VERSION = '0.10';
+$VERSION = '0.11';
 
 
 =head1 CLASS METHODS
@@ -70,7 +70,7 @@ sub get_allowances {
 
 	my $content = $self->_login();
 
-	return $self->_parse_allownaces($content);
+	return $self->_parse_allowances($content);
 }
 
 # PRIVATE METHODS
