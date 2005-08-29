@@ -1,5 +1,9 @@
 Revision history for Business-Billing::TMobile::UK
 
+0.12    - Require Term-ReadPassword v0.06 so can use its new
+          USE_STARS feature in the check_tmobile_allowances
+					script . Thanks to Tom Phoenix for adding that feature.
+					
 0.11	  - Added the check_tmobile_allowances script
         - Fixed minor bug
 

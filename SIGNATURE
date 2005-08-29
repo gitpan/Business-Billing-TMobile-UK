@@ -14,22 +14,22 @@ not run its Makefile.PL or Build.PL.
 -----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA1
 
-SHA1 81b14f32d48845ae4615ca15bb70e987f92df57f Build.PL
-SHA1 992eed7b7a76bcb609f6968caecfc0f0d3aa1a10 Changes
+SHA1 01812ba01e6aca8fc28d7ff8e3a7f58a66c2b718 Build.PL
+SHA1 6f54c7d5b49b7932d07036c13a65e4b8969dcfa8 Changes
 SHA1 53a430ecaaf1cad2f61ff44c452dd0710798ca17 MANIFEST
-SHA1 dc5b327cd3445f718e62ac15f8ceef50b00a0c4c META.yml
+SHA1 3d555b185416ba76ed73ff631051fbd15fd4ff1f META.yml
 SHA1 a359d4072690a21ce63e4b393bdbc19d72b6be5a Makefile.PL
 SHA1 618a54de5161adb3d7777d9bb60e6fc0c26774b9 README
-SHA1 846dce568b8a41e561415ff77f6b72bdb3931db8 lib/Business/Billing/TMobile/UK.pm
-SHA1 c2ddea2d3ac5269eb3eb484544812efd976d5759 script/check_tmobile_allowances
+SHA1 db715faff7e59bd782eb8e9f9099e79eff9369fd lib/Business/Billing/TMobile/UK.pm
+SHA1 64e8d411ecf530c5c52b59129326974b81124b70 script/check_tmobile_allowances
 SHA1 01c3db36930081fa66154985efc56d8835c7c14c t/01_distribution.t
 SHA1 a28727c26f193c906fa4a94fa72f9098548ff77c t/02_parse.t
 SHA1 c1273fc7ce0a3ba32f80b51d802a4fd7736127bc t/03_scripts.t
 SHA1 b7d5e54a7df88765c77c594a91622f0ce2c4360e t/test.html
 -----BEGIN PGP SIGNATURE-----
-Version: GnuPG v1.2.6 (GNU/Linux)
+Version: GnuPG v1.4.1 (GNU/Linux)
 
-iD8DBQFCR+TebD1fM9M5ytIRAm4DAJ9RxLcEBXZqcU8d7cQQuI2SX/fKqACgrXv0
-CWoUHcnzpxHtHb3EF9tYJlM=
-=c8g9
+iD8DBQFDEst3bD1fM9M5ytIRAjP3AJ9QEbqXDF2Je/6HAchjt1eNdKfK2QCgryBM
+BBX4qcwMNiQ9BFOeRjaC4Os=
+=LL/p
 -----END PGP SIGNATURE-----

@@ -9,7 +9,7 @@ my $builder = Module::Build->new(
 	dist_version_from   => 'lib/Business/Billing/TMobile/UK.pm',
 	requires            => {
 		'HTML::TreeBuilder' => 0,
-		'Term::ReadPassword'=> 0,
+		'Term::ReadPassword'=> '0.06',
 		'WWW::Mechanize'    => 0,
 	},
 	build_requires      => {

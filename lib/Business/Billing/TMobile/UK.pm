@@ -27,7 +27,7 @@ use English;
 use HTML::TreeBuilder;
 use WWW::Mechanize;
 
-$VERSION = '0.11';
+$VERSION = '0.12';
 
 
 =head1 CLASS METHODS
