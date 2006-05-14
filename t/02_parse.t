@@ -15,6 +15,6 @@ my $content = '';
 
 my $ra_allowances = $site->_parse_allowances($content);
 $ra_allowances = [] unless ref $ra_allowances;
-my $ra_expected = ['189 minutes', '182 texts'];
+my $ra_expected = ['137 minutes', '100 texts'];
 
 ok(eq_array($ra_allowances, $ra_expected), 'Allowances Page Correctly Parsed');

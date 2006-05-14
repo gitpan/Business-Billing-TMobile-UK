@@ -1,5 +1,8 @@
 Revision history for Business-Billing::TMobile::UK
 
+0.13    - Resolved weird encoding isuses from the current version
+          of the T-Mobile site
+
 0.12    - Require Term-ReadPassword v0.06 so can use its new
           USE_STARS feature in the check_tmobile_allowances
 					script . Thanks to Tom Phoenix for adding that feature.

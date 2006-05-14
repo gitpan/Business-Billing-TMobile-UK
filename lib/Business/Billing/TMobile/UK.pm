@@ -22,12 +22,11 @@ use warnings;
 
 # Standard Perl Library and CPAN modules
 use Carp;
-use Data::Dumper;
-use English;
+use Encode qw(from_to);
 use HTML::TreeBuilder;
 use WWW::Mechanize;
 
-$VERSION = '0.12';
+$VERSION = '0.13';
 
 
 =head1 CLASS METHODS
@@ -110,7 +109,9 @@ sub _parse_allowances {
 	my @allowances;
 
 	foreach my $text (@text) {
-		$text =~ s/^(\d+)(\D+)$/$1 $2/;
+		from_to($text, 'utf8', 'iso-8859-1');
+		# There seems to be some weird encoding. Most of it dissappears with the conversion from UTF-8 but there are also stray ? chars
+		$text =~ s/^(\d+)[?](\D+)$/$1 $2/;
 		push @allowances, $text;
 	}
 

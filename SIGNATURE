@@ -1,12 +1,12 @@
 This file contains message digests of all files listed in MANIFEST,
-signed via the Module::Signature module, version 0.38.
+signed via the Module::Signature module, version 0.53.
 
 To verify the content in this distribution, first make sure you have
 Module::Signature installed, then type:
 
     % cpansign -v
 
-It would check each file's integrity, as well as the signature's
+It will check each file's integrity, as well as the signature's
 validity.  If "==> Signature verified OK! <==" is not displayed,
 the distribution may already have been compromised, and you should
 not run its Makefile.PL or Build.PL.
@@ -14,22 +14,21 @@ not run its Makefile.PL or Build.PL.
 -----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA1
 
-SHA1 01812ba01e6aca8fc28d7ff8e3a7f58a66c2b718 Build.PL
-SHA1 6f54c7d5b49b7932d07036c13a65e4b8969dcfa8 Changes
-SHA1 53a430ecaaf1cad2f61ff44c452dd0710798ca17 MANIFEST
-SHA1 3d555b185416ba76ed73ff631051fbd15fd4ff1f META.yml
-SHA1 a359d4072690a21ce63e4b393bdbc19d72b6be5a Makefile.PL
+SHA1 76bf26918f6ef0152312d9ce4317c7912ebe0942 Build.PL
+SHA1 86f6826de94a5b79211a4dc61cdccab2b3ebf855 Changes
+SHA1 4efbccd769ec84899db2bd943dd61e06bdf1f32d MANIFEST
+SHA1 3046cd17f986493f87c2c5c9630f551acd2ca1e1 META.yml
 SHA1 618a54de5161adb3d7777d9bb60e6fc0c26774b9 README
-SHA1 db715faff7e59bd782eb8e9f9099e79eff9369fd lib/Business/Billing/TMobile/UK.pm
+SHA1 72917ec521dbc41cee598b4f84daa31b930f3eea lib/Business/Billing/TMobile/UK.pm
 SHA1 64e8d411ecf530c5c52b59129326974b81124b70 script/check_tmobile_allowances
 SHA1 01c3db36930081fa66154985efc56d8835c7c14c t/01_distribution.t
-SHA1 a28727c26f193c906fa4a94fa72f9098548ff77c t/02_parse.t
+SHA1 b512ebcd6295743fcfe260a4f209432b69e47e9d t/02_parse.t
 SHA1 c1273fc7ce0a3ba32f80b51d802a4fd7736127bc t/03_scripts.t
-SHA1 b7d5e54a7df88765c77c594a91622f0ce2c4360e t/test.html
+SHA1 d68ac20e5d5ccaa4ee2a7ca548be739e39103135 t/test.html
 -----BEGIN PGP SIGNATURE-----
 Version: GnuPG v1.4.1 (GNU/Linux)
 
-iD8DBQFDEst3bD1fM9M5ytIRAjP3AJ9QEbqXDF2Je/6HAchjt1eNdKfK2QCgryBM
-BBX4qcwMNiQ9BFOeRjaC4Os=
-=LL/p
+iD8DBQFEZwTvbD1fM9M5ytIRAklkAKCtnWomJSHTl1+pMYVDLST8KSBV6ACgmXoD
+XY/VbT2f7LJkA1q2AC+63xs=
+=KSxp
 -----END PGP SIGNATURE-----

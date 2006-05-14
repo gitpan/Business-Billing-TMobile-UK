@@ -11,6 +11,8 @@ my $builder = Module::Build->new(
 		'HTML::TreeBuilder' => 0,
 		'Term::ReadPassword'=> '0.06',
 		'WWW::Mechanize'    => 0,
+		'Crypt::SSLeay'     => 0,
+		'Encode'            => 0,
 	},
 	build_requires      => {
 		'Test::More' => 0,
@@ -18,7 +20,6 @@ my $builder = Module::Build->new(
 	create_readme      => 1,
 	scripts            => [ 'script/check_tmobile_allowances' ],
 	sign               => 1,
-	create_makefile_pl => 'passthrough',
 	add_to_cleanup      => [ 'Business-Billing-TMobile-UK-*' ],
 );
 
