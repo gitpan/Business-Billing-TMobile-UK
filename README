@@ -1,3 +1,8 @@
+MODULE FOR SALE
+    I am not planning to make any changes to this module as I have not been
+    a customer of TMobile for over a year. If someone would like to take
+    over maintenance/development of this module please get in touch.
+
 NAME
     Business::Billing::TMobile::UK - The fantastic new
     Business::Billing::TMobile::UK!
@@ -11,10 +16,12 @@ DESCRIPTION
 
 CLASS METHODS
   new
+
      new(username => $username, password => $password)
 
 OBJECT METHODS
   get_allowances
+
      get_allowances()
 
     Logs into the My Account section of the T-Mobile website and parses out
@@ -58,15 +65,21 @@ BUGS
     To report a bug or request an enhancement use CPAN's excellent Request
     Tracker, either via the web:
 
-    <http://rt.cpan.org/NoAuth/ReportBug.html?Queue=Business-Billing-TMobile
-    -UK>
+    http://rt.cpan.org/NoAuth/ReportBug.html?Queue=Business-Billing-TMobile-
+    UK
 
     or via email:
 
-    "bug-business-billing-tmobile-uk@rt.cpan.org"
+    `bug-business-billing-tmobile-uk@rt.cpan.org'
+
+SOURCE AVAILABILITY
+    This source is part of a SourceForge project which always has the latest
+    sources in svn.
+
+    http://sourceforge.net/projects/sagar-r-shah/
 
 AUTHOR
-    Sagar R. Shah, "<sagarshah@softhome.net>"
+    Sagar R. Shah, `<sagarshah@softhome.net>'
 
 COPYRIGHT
     Copyright 2005 Sagar R. Shah, All Rights Reserved.

@@ -2,11 +2,11 @@ Build.PL
 Changes
 lib/Business/Billing/TMobile/UK.pm
 MANIFEST			This list of files
-META.yml
-README
 script/check_tmobile_allowances
 t/01_distribution.t
 t/02_parse.t
 t/03_scripts.t
 t/test.html
+README
+META.yml
 SIGNATURE    Added here by Module::Build

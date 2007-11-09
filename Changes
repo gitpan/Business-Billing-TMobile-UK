@@ -1,5 +1,7 @@
 Revision history for Business-Billing::TMobile::UK
 
+0.14    - POD Update
+
 0.13    - Resolved weird encoding isuses from the current version
           of the T-Mobile site
 
@@ -7,10 +9,9 @@ Revision history for Business-Billing::TMobile::UK
           USE_STARS feature in the check_tmobile_allowances
 					script . Thanks to Tom Phoenix for adding that feature.
 					
-0.11	  - Added the check_tmobile_allowances script
+0.11	- Added the check_tmobile_allowances script
         - Fixed minor bug
 
 0.10    - Implemented public interface, inital CPAN release
 
 0.01    - First version, released on an unsuspecting world.
-

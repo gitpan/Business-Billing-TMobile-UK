@@ -1,3 +1,9 @@
+=head1 MODULE FOR SALE
+
+I am not planning to make any changes to this module as I have not been a
+customer of TMobile for over a year. If someone would like to take over
+maintenance/development of this module please get in touch.
+
 =head1 NAME
 
 Business::Billing::TMobile::UK - The fantastic new Business::Billing::TMobile::UK!
@@ -26,7 +32,7 @@ use Encode qw(from_to);
 use HTML::TreeBuilder;
 use WWW::Mechanize;
 
-$VERSION = '0.13';
+$VERSION = '0.14';
 
 
 =head1 CLASS METHODS
@@ -175,6 +181,13 @@ L<http://rt.cpan.org/NoAuth/ReportBug.html?Queue=Business-Billing-TMobile-UK>
 or via email:
 
 C<bug-business-billing-tmobile-uk@rt.cpan.org>
+
+=head1 SOURCE AVAILABILITY
+
+This source is part of a SourceForge project which always has the
+latest sources in svn.
+
+http://sourceforge.net/projects/sagar-r-shah/
 
 =head1 AUTHOR
 
