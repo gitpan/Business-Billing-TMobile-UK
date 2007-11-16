@@ -1,7 +1,15 @@
 use strict;
-use Test::More tests=>1;
+use Test::More;
 
-my $out = `perl -cw script/check_tmobile_allowances 2>&1`;
+if( $^O =~ m/^(?:MSWin32|VMS)$/) {
+    plan skip_all => 'Test not compatible with your OS';
+}
+else {
+    plan tests => 1;
+}
+
+
+my $out = `$^X -cw script/check_tmobile_allowances 2>&1`;
 
 if($?) {
 	diag($out);

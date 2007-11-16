@@ -9,4 +9,3 @@ t/03_scripts.t
 t/test.html
 README
 META.yml
-SIGNATURE    Added here by Module::Build

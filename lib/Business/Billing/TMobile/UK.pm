@@ -4,6 +4,19 @@ I am not planning to make any changes to this module as I have not been a
 customer of TMobile for over a year. If someone would like to take over
 maintenance/development of this module please get in touch.
 
+=head1 ANTI-TMOBILE RANT
+
+TMobile's lax fraud prevention procedures allowed a random person in a random
+part of the UK to buy a mobile phone contract at my parents address. TMobile
+then started to demand money from my parents and ignored initial attempts to
+explain that the person has a different name from the residents and has never
+lived at their address. TMobile eventually, after much chasing, agreed to stop
+demanding money that my family did not owe them, but they to date have not
+properly apologied for their actions or explained how on earth this person was
+able to setup the phone contract in the first place.
+
+I encourage people not to use T-Mobile.
+
 =head1 NAME
 
 Business::Billing::TMobile::UK - The fantastic new Business::Billing::TMobile::UK!
@@ -32,7 +45,7 @@ use Encode qw(from_to);
 use HTML::TreeBuilder;
 use WWW::Mechanize;
 
-$VERSION = '0.14';
+$VERSION = '0.15';
 
 
 =head1 CLASS METHODS

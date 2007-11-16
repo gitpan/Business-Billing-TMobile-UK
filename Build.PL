@@ -19,8 +19,7 @@ my $builder = Module::Build->new(
 	},
 	create_readme      => 1,
 	scripts            => [ 'script/check_tmobile_allowances' ],
-	sign               => 1,
-	add_to_cleanup      => [ 'Business-Billing-TMobile-UK-*' ],
+    add_to_cleanup       => [ '*.tar.gz', 'Build', '_build' ],
 );
 
 $builder->create_build_script();
