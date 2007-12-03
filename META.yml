@@ -1,6 +1,6 @@
 ---
 name: Business-Billing-TMobile-UK
-version: 0.15
+version: 0.16
 author:
   - 'Sagar R. Shah <sagarshah@softhome.net>'
 abstract: The fantastic new Business::Billing::TMobile::UK!
@@ -14,11 +14,12 @@ requires:
   Term::ReadPassword: 0.06
   WWW::Mechanize: 0
 build_requires:
+  Devel::CheckOS: 1.42
   Test::More: 0
 provides:
   Business::Billing::TMobile::UK:
     file: lib/Business/Billing/TMobile/UK.pm
-    version: 0.15
+    version: 0.16
 generated_by: Module::Build version 0.2808
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.2.html

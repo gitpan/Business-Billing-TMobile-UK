@@ -45,7 +45,7 @@ use Encode qw(from_to);
 use HTML::TreeBuilder;
 use WWW::Mechanize;
 
-$VERSION = '0.15';
+$VERSION = '0.16';
 
 
 =head1 CLASS METHODS
